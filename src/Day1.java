@@ -8,7 +8,6 @@ public class Day1 {
         i = i -j;
         System.out.println(i);
         System.out.println(j);
-        System.out.println("hello");
 
 
     }
