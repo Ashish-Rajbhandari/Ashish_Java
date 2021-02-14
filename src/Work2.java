@@ -23,7 +23,7 @@ public class Work2 {
         float avg = sum / 5;
         System.out.println("Average:" + avg);
 
-        if (avg < 0 || avg > 100) {
+        if (avg <= 0 || avg > 100) {
             System.out.println("this is not acceptable");
         } else if (avg >= 95 && avg < 100) {
             System.out.println("U deserve grade A");
